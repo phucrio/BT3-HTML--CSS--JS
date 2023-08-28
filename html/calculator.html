@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Máy Tính</title>
+<link rel="stylesheet" href="../style/calculator.css">
+</head>
+<body>
+<div class="calculator">
+  <input type="text" id="result" readonly>
+  <table>
+    <tr>
+      <td><button class="number">7</button></td>
+      <td><button class="number">8</button></td>
+      <td><button class="number">9</button></td>
+      <td><button class="operator">/</button></td>
+    </tr>
+    <tr>
+      <td><button class="number">4</button></td>
+      <td><button class="number">5</button></td>
+      <td><button class="number">6</button></td>
+      <td><button class="operator">*</button></td>
+    </tr>
+    <tr>
+      <td><button class="number">1</button></td>
+      <td><button class="number">2</button></td>
+      <td><button class="number">3</button></td>
+      <td><button class="operator">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="operator">%</button></td>
+      <td><button class="number">0</button></td>
+      <td><button id="plusMinus">+/-</button></td>
+      <td><button class="operator">+</button></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button id="clear">C</button></td>
+      <td><button id="equals">=</button></td>
+    </tr>
+  </table>
+</div>
+<script src="../js/calculator.js"></script>
+</body>
+</html>

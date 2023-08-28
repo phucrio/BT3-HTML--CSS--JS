@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đăng Ký Thành Viên</title>
+<link rel="stylesheet" href="../style/FormDangKy.css">
+</head>
+<body>
+<div class="container">
+  <h2>Đăng Ký Thành Viên</h2>
+  <form id="registrationForm">
+    <label style="display: flex;">
+        <label style="width: 150px;" for="fullname"> Họ tên: </label>
+        <input type="text" id="fullname" name="fullname" class="required" autofocus>
+    </label>
+    
+    
+    <label style="display: flex;" >
+        <label style="width: 150px;" for="address">Địa chỉ:</label>
+        <input type="text" id="address" name="address" class="required">
+    </label>
+    
+    
+    <label style="display: flex;">
+        <label style="width: 150px;">Giới tính:</label>
+        <label style="width: 80px;"><input type="radio" name="gender" value="male"> Nam</label>
+        <label><input type="radio" name="gender" value="female"> Nữ</label>
+    </label>
+    <br>
+    
+    <label style="display: flex;" >
+        <label style="width: 150px;" for="dob">Ngày sinh:</label>
+        <input type="text" id="dob" name="dob" class="required">
+    </label>
+    
+    
+    <label style="display: flex;">
+        <label style="width: 150px;" for="email">Email:</label>
+        <input type="text" id="email" name="email" class="required">
+    </label>
+    
+    
+    <label style="display: flex;">
+        <label style="width: 150px;" for="phone">Điện thoại:</label>
+        <input type="text" id="phone" name="phone">
+    </label>
+    
+    
+    <label style="display: flex;">
+        <label style="width: 150px;"> Khóa đăng ký:</label>
+        <label style="width: 120px;"><input  type="checkbox" name="courses" value="english"> Tiếng Anh</label>
+        <label style="width: 120px;"><input type="checkbox" name="courses" value="management"> Quản trị</label>
+        <label><input type="checkbox" name="courses" value="it"> CNTT</label>
+    </label>
+    <br>
+    <label style="display: flex;">
+        <label style="width: 150px;" for="username">Tên sử dụng:</label>
+        <input type="text" id="username" name="username" class="required">
+    </label>
+    
+    
+    <label style="display: flex;">
+        <label style="width: 150px;" for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" class="required">
+    </label>
+    
+    
+    <label style="display:flex ;">
+        <label style="width: 150px;" for="confirmPassword">Gõ lại mật khẩu:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" class="required">
+    </label>
+    
+    <label style="display: flex;">
+        <label style="width: 150px;" for="note"><br>Ghi chú:</label>
+        <textarea id="note" name="note"></textarea>
+    </label>
+    <label style="display: flex;">
+        <label style="width: 150px;"></label>
+        <button type="button" id="acceptBtn">Chấp nhận</button>
+        <button type="button" id="cancelBtn">Bỏ qua</button>
+    </label>
+    
+    
+  </form>
+</div>
+<script src="../js/FormDangKy.js"></script>
+</body>
+</html>

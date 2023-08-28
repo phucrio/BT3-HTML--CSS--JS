@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Nhập Hồ Sơ Học Sinh</title>
+<link rel="stylesheet" href="../style/FormHOSO.css">
+</head>
+<body>
+<div class="container">
+  <h1>Form Nhập Hồ Sơ Học Sinh</h1>
+  <form id="studentForm">
+    <label for="mahs">Mã học sinh:</label>
+    <input type="text" id="mahs" name="mahs" required>
+    
+    <label for="hoten">Họ tên:</label>
+    <input type="text" id="hoten" name="hoten" required>
+    
+    <label for="ngaysinh">Ngày sinh:</label>
+    <input type="date" id="ngaysinh" name="ngaysinh" required>
+    
+    <label for="diachi">Địa chỉ:</label>
+    <input type="text" id="diachi" name="diachi" required>
+    
+    <label for="lop">Lớp:</label>
+    <input type="text" id="lop" name="lop" required>
+    
+    <label for="diemtoan">Điểm Toán:</label>
+    <input type="number" step="0.1" id="diemtoan" name="diemtoan" required>
+    
+    <label for="diemly">Điểm Lý:</label>
+    <input type="number" step="0.1" id="diemly" name="diemly" required>
+    
+    <label for="diemhoa">Điểm Hóa:</label>
+    <input type="number" step="0.1" id="diemhoa" name="diemhoa" required>
+    
+    <button type="button" id="submitBtn">Thêm Hồ Sơ</button>
+  </form>
+</div>
+<script src="../js/FormHOSO.js"></script>
+</body>
+</html>

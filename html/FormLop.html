@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Nhập Liệu Lớp Học</title>
+<link rel="stylesheet" href="../style/FormLop.css">
+</head>
+<body>
+<div class="container">
+  <h1> Nhập Dữ Liệu Lớp Học</h1>
+  <form id="classForm">
+    <label for="malop">Mã lớp:</label>
+    <input type="text" id="malop" name="malop" required>
+    
+    <label for="tenlop">Tên lớp:</label>
+    <input type="text" id="tenlop" name="tenlop" required>
+    
+    <label for="khoahoc">Khóa học:</label>
+    <input type="number" id="khoahoc" name="khoahoc" required>
+    
+    <label for="gvcn">Giáo viên chủ nhiệm:</label>
+    <input type="text" id="gvcn" name="gvcn" required>
+    
+    <button type="button" id="submitBtn">Thêm Lớp</button>
+  </form>
+</div>
+<script src="../js/FormLop.js"></script>
+</body>
+</html>
