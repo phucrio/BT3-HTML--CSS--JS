@@ -32,9 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       
-      // Các xử lý tiếp theo như gửi dữ liệu lên server
-      // ...
-      
       alert('Thêm hồ sơ học sinh thành công!');
       form.reset();
     });
